@@ -1,0 +1,98 @@
+/*0 - 900
+my project before 900px {
+
+}*/
+
+@media(max-width: 1200px){
+	.main_block header .container{
+		min-width: 75%;
+	}
+}
+
+
+/*--------------------------*/
+
+@media(max-width: 900px){
+	.main_block header{
+		height: 85px;
+	}
+	.main_block header .container{
+		min-width: 95%;
+	}
+	.main_block header .container menu{
+		background-color: red;
+		display: none;
+	}
+
+	.sp{
+		width: 40px;
+		height: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.sp nav{
+		width: 100%;
+		height: 4px;
+		background-color: #fff;
+		border-radius: 8px;
+	}
+
+	.main_block article h1{
+		font-size: 25px;
+		line-height: 34px;
+		padding: 0px 25px;
+		margin-bottom: 60px;
+	}
+	.break_line{
+		display: none;
+	}
+	.about_us_block{
+		padding: 60px 0;
+	}
+
+	.about_us_block .container{
+		width: 90%;
+	}
+
+	.main_title{
+		font-size: 24px;
+		line-height: 32px;
+		margin-bottom: 30px;
+	}
+
+	.main_desc{
+		text-align: justify;
+	}
+
+	.about_us_block section{
+		/*background-color: red;*/
+	}
+	.about_us_block section .services_drop{
+		
+	}
+	.about_us_block section .services_drop nav{
+		margin-bottom: 40px;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		border-bottom: 1px solid rgba(0,0,0,0.3);
+		padding-bottom: 30px;
+	}
+
+	.about_us_block section .services_drop nav:nth-child(4),
+	.about_us_block section .services_drop nav:nth-child(5),
+	.about_us_block section .services_drop nav:nth-child(6){
+		display: none;
+	}
+
+	.about_us_block section .services_drop nav aside:nth-child(1){
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.about_us_block section .services_drop nav aside:nth-child(2){
+		margin-top: 0;
+		text-align: center;
+	}
+}
