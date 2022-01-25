@@ -59,7 +59,7 @@ body::-webkit-scrollbar-thumb{
 .main_block{
 	width: 100%;
 	height: 100vh;
-	background: url(../image/main.jpg) no-repeat center/cover;
+	background: url(../main.jpg) no-repeat center/cover;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -444,7 +444,7 @@ body::-webkit-scrollbar-thumb{
 .all_projects_block .container section nav{
 	width: 255px;
 	height: 255px;
-	background: url(../image/project_back.png) no-repeat center/cover;
+	background: url(../project_back.png) no-repeat center/cover;
 }
 
 .all_projects_block .container section nav .layer{
@@ -486,7 +486,7 @@ body::-webkit-scrollbar-thumb{
 .video_block .top{
 	width: 100%;
 	height: 570px;
-	background: url(../image/video_block_back.jpg) no-repeat top/cover;  
+	background: url(../video_block_back.jpg) no-repeat top/cover;  
 }
 
 .video_block .bottom{
@@ -520,7 +520,7 @@ body::-webkit-scrollbar-thumb{
 .video_block .bottom .video .poster{
 	width: 100%;
 	height: 450px;
-	background: url(../image/video_poster.png) no-repeat center/cover;
+	background: url(../video_poster.png) no-repeat center/cover;
 
 	position: absolute;
 	top: -10px;
